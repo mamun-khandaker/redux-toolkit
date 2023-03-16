@@ -13,6 +13,7 @@ const PostsView = () => {
 
   return (
     <>
+      <h1>Post list</h1>
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
       {posts &&
